@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dest/css/all.css">
+    <title>Picom</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="authorization">
+                <div class="authorization-logo">
+                    <img src="/dest/img/logo_picom.png" alt="">
+                    <button value="" id="btn-registration">Регистрация</button>
+                    <button id="btn-login">Войти</button>
+                </div>
+                <div class="authorization-form">
+                    <h2>Создать учетную запись</h2>
+                    <p class="hasLog"><span>Уже есть учетная запись?</span> <a href="#">Войти</a> </p> 
+                    <form class="form-main" action="POST">
+                        <input placeholder="Имя*" class="form-main__input form-main__input-text" type="text"name="" id="">
+                        <input placeholder="E-mail*" class="form-main__input form-main__input-email" type="email" name="" id="">
+                        <input placeholder="Пароль*" class="form-main__input form-main__input-psaaword" type="password" name="" id="">
+                        <div class="form-main__agree">
+                            <input type="checkbox" name="" id="agree">
+                            <!-- <div class="form-main__agree-checkbox"></div> -->
+                            <label class="form-main__agree-text" for="agree">
+                                Я даю согласие на обработку персональных данных, указанных в условиях <a class="user-doc">Пользовательского соглашения</a> 
+                            </label>
+                        </div>
+                        <!-- <span class="string"></span> -->
+                        <input type="submit" value="Создать учетную запись" class="form-main__button" href="">
+                    </form>
+                </div>
+                <div class="authorization-form2">
+                    <h2>Войти в учетную запись</h2>
+                    <p class="hasLog"><span>Нет учетной записи?</span> <a href="#">Создать учетную запись</a> </p> 
+                    <form class="form-main" action="POST">
+                        <input placeholder="E-mail*" class="form-main__input form-main__input-email" type="email" name="" id="">
+                        <input placeholder="Пароль*" class="form-main__input form-main__input-psaaword" type="password" name="" id="">
+                        <div class="log-in">
+                            <a class="forget-js log-in__forget">Забыли пароль?</a>
+                            <input type="submit" value="Войти" class="log-in__button" href="">
+                        </div>
+                    </form>
+                    <div class="log-help">
+                        <p class="log-help__title">или с помощью</p>
+                        <button class="log-help__social log-help__VK"><img src="dest/img/vk.png" alt=""> Войти через ВКонтакте</button>
+                        <button class="log-help__social log-help__FB"><img src="dest/img/fb.png" alt=""> Войти через Facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="modal">
+            <h3>Лицензионное соглашение</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi enim non blanditiis at. Dolorem, hic quo. Harum natus commodi optuibusdam magni eius harum ducimus. Quae, cupiditate. Nulla commodi quibusdam molestias voluptas, quae officiis dolorum dolore quaerat iure dolores. Iste, praesentium dolor nulla quidem optio quo qui expedita pariatur reiciendis minima cum aut doloremque a veniam ullam beatae recusandae necessitatibus eos rerum at nobis. Asperiores eligendi cum ipsam, iste tempora sed illum laudantium vitae autem! Eius velit accusamus ad minus ipsam. Tenetur ad eligendi expedita, iusto, voluptatibus veritatis quo quos deleniti aperiam, doloremque soluta ex! Eveniet placeat dolore sed?</p>
+            <div class="btn-wrap">
+                <button id="conf-js">Ok</button>
+            </div>
+        
+        </div>
+    </div>
+    
+    <script src="dest/js/script.js"></script>
+</body>
+</html>
