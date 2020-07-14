@@ -5,20 +5,20 @@ window.onload = function(){
     const loginBlock = document.querySelector('.authorization-form2');
 
     registrationBtn.addEventListener('click', function(){
-        // registrationBlock.classList.toggle('opacity');
-        if(registrationBlock.style.display === 'flex'){
-            registrationBlock.style.display = "none";
-        }else{
-            registrationBlock.style.display = 'flex';
-        }
+        registrationBlock.classList.toggle('opacity');
+        // if(registrationBlock.style.display === 'flex'){
+        //     registrationBlock.style.display = "none";
+        // }else{
+        //     registrationBlock.style.display = 'flex';
+        // }
     });
     loginBtn.addEventListener('click', function(){
-        // loginBlock.classList.toggle('opacity');
-        if(loginBlock.style.display === 'flex') {
-            loginBlock.style.display = "none";
-        } else {
-            loginBlock.style.display = 'flex';
-        }
+        loginBlock.classList.toggle('opacity');
+        // if(loginBlock.style.display === 'flex') {
+        //     loginBlock.style.display = "none";
+        // } else {
+        //     loginBlock.style.display = 'flex';
+        // }
     });
 
     const btn = document.querySelector('.user-doc');
